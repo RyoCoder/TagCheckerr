@@ -51,12 +51,12 @@ async def tag_check(_, message):
            return
        text = f"""
 **Chào {message.from_user.mention}**
-Vui lòng thêm thẻ của chúng tôi vào tên của bạn để
+Vui lòng thêm thẻ hash của nhóm vào tên của bạn để
 được phép chat trong nhóm.
 
 **Thẻ hashtag:** `{TAG}`
-**Note:** __Bấm vào nút bên dưới để
-mở chat cho bản thân!__
+**Note:** __Sau khi đã thêm thẻ hashtag vào tên. 
+Bấm vào nút bên dưới để mở chat cho bản thân!__
 """
        await message.reply(
         text,
